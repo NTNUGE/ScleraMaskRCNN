@@ -1,0 +1,37 @@
+# python3 Installation
+conda create --name=maskrcnn python=3.6
+
+#LabelMe Installation
+conda activate labelme
+pip install labelme
+
+#VGG annotation Tool
+https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html
+
+#Installation of dependencies
+pip install -r requirements.txt
+
+
+#Jupyter Installation
+sudo -H pip3 install virtualenv
+virtualenv MASKRCNN
+source activate MASKRCNN
+pip install jupyter
+jupyter notebook
+
+
+//
+NIR execution file path ----> /samples/sclera/
+
+#Steps need to be followed for training a model
+-- create train and val as directories in dataset
+-- enabled GPU using 1 If you have GPU ,otherwise GPU=0
+-- Run scripts from Image Pre-processing folder for improving the quality of dataset and compatible for better result. 
+-- Download weights from "https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5"
+-- run model with "python sclera.py train --dataset=C:\Windows\System32\Mask_RCNN\samples\Sclera\dataset --weights=coco"
+-- Use outline folder for generating the inner and outer Iris rings. 
+
+
+
+
+

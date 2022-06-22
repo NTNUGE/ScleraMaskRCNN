@@ -1,0 +1,1 @@
+This repository was contributed by Gourav Gupta and Kiran Raja of the Norwegian University of Science and Technology (NTNU) for the paper Exploring Bias in Sclera Segmentation Models: A Group Evaluation Approach.
